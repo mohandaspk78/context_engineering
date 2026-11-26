@@ -1,0 +1,30 @@
+# If you also want to ignore Python bytecode and cache files:
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.claude
+
+# App env
+AGENT_APPS_F/*.yaml
+# If you want to ignore Python virtual environments:
+venv/
+env/
+ENV/
+.venv/
+.env
+
+# If you want to ignore Python distribution/packaging files:
+*.egg
+*.egg-info/
+dist/
+build/
+data/
+
+# No agent script in the memory lakebase
+MEMORY_4/*.py
+
+# Old version
+*_old.*
+.env_duplicate
